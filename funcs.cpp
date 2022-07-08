@@ -12,7 +12,7 @@ struct User
 };
 
 void SignUp(User *info, int n)
-{   // here we get data from user and write it to our file
+{   // here we get data from user and write it to our file // i didn't understand how to make code create and open files on every computer
     ofstream baza("/Users/vasilijfrolov/Desktop/simplest projects/SIgn up an Sign in/SIgn up an Sign in/UsersData.txt",ios_base::app);
     cout<<"Put you login in"<<endl;
     cin>>info[n].login;
